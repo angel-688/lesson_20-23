@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220518151515">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__poligon poligon">
+				<div class="poligon__body">
+					<div class="poligon__block-list block-list">
+						<div class="poligon__title">В данном секторе список, в котором можно выделять пункты, а также при
+							зажатом <span class="poligon__span">CTRL</span> можно выделять несколько пунктов сразу</div>
+						<ul class="block-list__list">
+							<li class="block-list__item _active">Item</li>
+							<li class="block-list__item">Item</li>
+							<li class="block-list__item">Item</li>
+							<li class="block-list__item">Item</li>
+							<li class="block-list__item">Item</li>
+						</ul>
+					</div>
+					<div class="poligon__blocks blocks">
+						<div class="poligon__title">В данном секторе можно удалять и добавлять блоки, а также есть ограничение
+							на добавление блоков</div>
+						<div class="blocks__button-block">
+							<button type="button" class="blocks__button">Добавить блок</button>
+						</div>
+						<div class="blocks__body">
+							<div class="blocks__item">
+								<div class="blocks__wrapper">
+									<div class="blocks__close">X</div>
+									<div class="blocks__title">Lorem ipsum dolor sit amet.</div>
+									<p class="blocks__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+										expedita fuga distinctio ex molestiae nam! Sed consectetur assumenda laborum qui provident
+										temporibus maiores voluptate nostrum, fuga, a corrupti totam quaerat.</p>
+								</div>
+							</div>
+							<div class="blocks__item">
+								<div class="blocks__wrapper">
+									<div class="blocks__close">X</div>
+									<div class="blocks__title">Lorem ipsum dolor sit amet.</div>
+									<p class="blocks__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+										expedita fuga distinctio ex molestiae nam! Sed consectetur assumenda laborum qui provident
+										temporibus maiores voluptate nostrum, fuga, a corrupti totam quaerat.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="poligon__dividers dividers">
+						<div class="poligon__title">В данном секторе узнать список всех делителей числа</div>
+						<div class="dividers__body">
+							<div class="dividers__line">
+								<input autocomplete="off" type="number" name="form[]" data-error="Ошибка" placeholder="Введите число" class="dividers__input">
+							</div>
+							<button type="button" class="dividers__button button">Получить делители</button>
+						</div>
+					</div>
+					<div class="poligon__search-text search-text">
+						<div class="poligon__title">В данном секторе можно получить количество введёных слов и символов, а так
+							же
+							выбрать какие данные хочешь получить</div>
+						<div class="search-text__body">
+							<div class="search-text__field"><textarea autocomplete="off" name="form[]" placeholder="Введите текст" class="search-text__textarea"></textarea>
+							</div>
+							<button type="button" class="search-text__button button">Получить количество</button>
+							<div class="search-text__check">
+								<input id="ck_1" type="checkbox" name="form[]" class="search-text__checkbox">
+								<label for="ck_1" class="search-text__label-word _active">Показать количество слов</label>
+							</div>
+							<div class="search-text__check">
+								<input id="ck_2" type="checkbox" name="form[]" class="search-text__checkbox">
+								<label for="ck_2" class="search-text__label-symbol _active">Показать количество символов</label>
+							</div>
+						</div>
+					</div>
+					<div class="poligon__circle circle">
+						<div class="poligon__title">В данном секторе можно узнать площадь круга и длинну окружности</div>
+						<div class="circle__content">
+							<div class="circle__body">
+								<div class="circle__line">
+									<input autocomplete="off" type="number" name="form[]" placeholder="Введите радиус в см" class="circle__input">
+								</div>
+								<button type="button" class="circle__button-area button">Получить площадь круга</button>
+								<button type="button" class="circle__button-ring button">Получить длинну окружности</button>
+							</div>
+							<div class="circle__figure"></div>
+						</div>
+					</div>
+					<div class="poligon__football football">
+						<div class="poligon__title">В данном секторе ты можешь кликнуть на поле, и мяч переместиться на место
+							клика</div>
+						<div class="football__body">
+							<div class="football__field">
+								<div class="football__ball">
+									<img src="https://ru.js.cx/clipart/ball.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220518151515"></script>
+</body>
+
+</html>
